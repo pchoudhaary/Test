@@ -1,0 +1,26 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: admin
+    url: jdbc:mysql://localhost:3306/sbms
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+  mvc:
+    pathmatch:
+      matching-strategy: ant-path-matcher
+planapi:
+ messages:
+  plansaved: Plan Saved
+  plannotsaved: Plan Not Saved
+  planupdate: Plan Updated
+  plannotupdate: Plan Not Updated
+  plandeleted: Plan Deleted
+  plannotdeleted: Plan Not Deleted
+  planstatussaved: Plan Status saved
+  planstatusnotsaved: Plan Status not Saved  
+  
+  
+  
